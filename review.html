@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+
+    <form>
+        <!-- Select Element -->
+        <label for="store">Store number</label>
+        <select id="store">
+            <option>Select Store</option>
+            <option>3109</option>
+            <option>2421</option>
+            <option>5357</option>
+        </select>
+            <fieldset>
+                <legend>When you visited:</legend>
+                <!-- Date Input -->
+                <label for="date">Date Visited:</label>
+                <input type="date" id="date">
+                <!-- Time Input -->
+                <label for="time">Time:</label>
+                <input type="time" id="time">
+            </fieldset>
+            <!-- Text Inputs -->
+            <label for="first">First Name</label>
+            <input type="text" id="first" placeholder="John">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" placeholder="Doe">
+            <br>
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email">
+            <br>
+            <!-- Radio Input -->
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+
+    </form>
+</body>
+</html>
