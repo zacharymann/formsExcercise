@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+    <form>
+    <label for="Store Number">Store Number</label>
+    <select name="" id="Store Number">
+        <option hidden>Select Store</option>
+        <option>3109</option>
+        <option>2421</option>
+        <option>5357</option>
+    </select>
+    <div>
+        <fieldset>
+            <legend>When you visited:</legend>
+            Date visited
+            <input type="date" value="mm-dd-2020" min="2021-01-01" max="2021-12-31">
+            Time:
+            <input type="time">
+        </fieldset>
+        
+        <label for="First Name">First Name</label>
+        <input type="text" id="First Name" placeholder="John" required>
+        
+        <label for="Last Name" placeholder="Doe">Last Name</label>
+        <input type="text" id="Last Name" placeholder="Doe" required>    Email 
+        <label for="userEmail"></label>
+        <input type="email" id="userEmail" placeholder="your email" required>
+        <br>
+        <label for="radioOne"></label>Male
+        <input type="radio" id="radioOne" name="radioLink">
+        <label for="radioTwo" value=""></label>Female
+        <input type="radio" id="radioTwo" name="radioLink" value="Female" checked>
+        <label for="radioThree"></label>Other
+        <input type="radio" id="radioThree" name="radioLink">
+        <br>
+        <label for="Experience">Tell us about your experience:</label>
+        <br>
+        <textarea name="Experience" id="30" cols="20" rows="2"></textarea>
+        <br>
+        <label for="Visits">Times visited in the last month</label>
+        <input type="number" id="Visits" name="Visits" min="1" max="30">
+        <br>
+        <label for="userCheckbox">Please check this box if you would be willing to be contacted about your experience</label>
+        <input type="checkbox" id="">
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd" minlength="5" maxlength="10" title="“Please enter a password that is 5 to 10 character in length" required>
+        <br>
+    </div>
+    <div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+    
+    
+
+    
+</body>
+</html>
